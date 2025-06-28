@@ -35,19 +35,17 @@ Multiple sheets/tabs with aggregated pivot tables and raw employee data, includi
 ---
 
 ## 2. 📊 Data Sources
-* The dataset is sourced from a single Microsoft Excel file created for classwork purposes:
+* The dataset is sourced from a single Microsoft Excel file created for practice purposes:
   * **Employee Table** (`Employee` sheet): Contains demographic, employment, and performance-related information for each employee.
-
 ---
 
 ## 3. 🛠 Tools
 - **Microsoft Excel**: For data storage, pivot table creation, and dashboard visualizations.
 - **GitHub**: For version control and public sharing of this analysis.
-
 ---
 
 ## 4. 🧹 Data Cleaning/Preparation
-Key preparation steps included:
+### Key preparation steps included:
 - Data Standardization:
   - Converted date fields (e.g., `HireDate`) to a readable format (e.g., month names, quarters) where needed.
   - Corrected formatting for non-date fields like `Salary` to ensure numerical consistency (e.g., removed any text or symbols).
@@ -78,13 +76,12 @@ Key preparation steps included:
   - Generated pivot table summaries for key metrics (e.g., gender counts, average salaries) using standardized data.
   - Grouped data by categories such as department, job role, and education level for detailed analysis.
   - Created plots and charts based on pivot table summaries to visualize trends and patterns.
-
 ---
 
 ## 5. 🔍 Exploratory Data Analysis
 Exploratory Data Analysis (EDA) was conducted to understand the dataset's structure and identify patterns. 
 Key areas explored include:
-### 1. Employee Demographics
+### Employee Demographics
 - **Total Employees**: 1,469
 - **Gender Distribution**:
   - Female: 674 (45.88%)
@@ -117,8 +114,7 @@ Key areas explored include:
 **Insight**: The workforce is relatively young, with a majority under 30 years old. Gender distribution is fairly balanced, though non-binary and "prefer not to say" categories are small. The majority of employees are White, and California is the dominant state of residence, likely indicating key operational hubs.
 
 ---
-
-### 2. Department and Job Roles
+### Department and Job Roles
 - **Departments**:
   - Technology: 961 employees (65.42%)
   - Sales: 445 employees (30.29%)
@@ -143,8 +139,7 @@ Key areas explored include:
 **Insight**: The Technology department dominates in headcount, reflecting a tech-heavy organization. Sales Executives and Software Engineers are the most common roles. High-paying roles like HR Manager and Analytics Manager indicate specialized positions command premium salaries. Technology roles, despite being numerous, have lower average salaries compared to HR and Sales.
 
 ---
-
-### 3. Salary Analysis
+### Salary Analysis
 - **Overall Average Salary**: $112,963.92
 - **Salary by Gender**:
   - Female: $113,953.31
@@ -169,8 +164,7 @@ Key areas explored include:
 **Insight**: Salaries are relatively equitable across genders, with "Prefer Not To Say" employees earning the highest average. Higher education levels correlate strongly with higher salaries, with Level 5 earning significantly more. Overtime does not appear to directly increase average salary, possibly indicating hourly vs. salaried roles or fixed compensation structures.
 
 ---
-
-### 4. Attrition Analysis
+### Attrition Analysis
 - **Attrition Rate**:
   - No Attrition: 1,232 (83.87%)
   - Attrition: 237 (16.13%)
@@ -196,8 +190,7 @@ Key areas explored include:
 **Insight**: Attrition is relatively low at 16.13%, with males showing slightly higher turnover than females. Younger employees and those with shorter tenure are more likely to leave. Distance from home does not significantly impact attrition. The "Prefer Not To Say" group has no attrition, possibly due to its small sample size.
 
 ---
-
-### 5. Tenure and Promotions
+### Tenure and Promotions
 - **Average Years at Company**: 4.56 years
   - By Department:
     - Technology: 4.61 years
@@ -215,8 +208,7 @@ Key areas explored include:
 **Insight**: Tenure is moderate, with Technology employees staying slightly longer. Long-serving employees earn significantly more, reflecting seniority-based compensation. The average time since the last promotion (3.44 years) suggests promotion cycles may be slow, potentially contributing to attrition among younger employees.
 
 ---
-
-### 6. Hiring Trends
+### Hiring Trends
 - **Hire Dates** (by Quarter):
   - Q1 (Jan-Mar): 408 hires (27.77%)
   - Q2 (Apr-Jun): 391 hires (26.62%)
@@ -238,8 +230,7 @@ Key areas explored include:
 **Insight**: Hiring is fairly evenly distributed across quarters, with a slight peak in Q1. March and May are the most active hiring months, possibly aligning with fiscal or academic cycles. Tuesday is the most common hiring day, suggesting structured onboarding processes. Computer Science and Information Systems dominate educational backgrounds, aligning with the Technology department’s size.
 
 ---
-
-### 7. Overtime and Work Patterns
+### Overtime and Work Patterns
 - **Overtime**:
   - Yes: 416 employees (28.32%)
   - No: 1,053 employees (71.68%)
@@ -257,8 +248,7 @@ Key areas explored include:
 **Insight**: Overtime is common among key roles like Sales Executives and Software Engineers, but it doesn’t translate to higher average salaries, possibly due to salaried positions. Travel requirements vary, with "Some Travel" being the norm, potentially impacting work-life balance.
 
 ---
-
-### 8. Role Status and Career Mobility
+### Role Status and Career Mobility
 - **Role Status**:
   - Different Role: 1,022 employees (69.57%)
   - Same Role: 447 employees (30.43%)
@@ -274,69 +264,33 @@ Key areas explored include:
 
 ---
 
-### 9. Key Observations and Recommendations
-- **Attrition**: The 16.13% attrition rate is moderate, but younger employees (average age 26.54) with shorter tenure (2.43 years) are at higher risk. Consider retention strategies like faster promotions or mentorship programs for junior staff.
-- **Salary Disparities**: While gender-based salary differences are minimal, roles like HR Manager and Analytics Manager have significantly higher salaries. Ensure compensation aligns with role complexity and market rates to avoid dissatisfaction.
-- **Hiring Focus**: The heavy emphasis on Technology roles (65.42%) and Computer Science hires (440) aligns with industry trends but risks over-reliance on one sector. Diversifying into other fields (e.g., Marketing, Economics) could balance the workforce.
-- **Overtime**: The lack of salary differentiation for overtime workers suggests potential inequities for hourly staff. Review overtime policies to ensure fair compensation or workload distribution.
-- **Promotion Cycles**: The 3.44-year average since the last promotion may be too long for younger employees, contributing to attrition. Accelerate promotion reviews for high performers.
-- **Geographic Concentration**: With 59.56% of employees in California, consider expanding operations to other states to reduce geographic risk and tap into diverse talent pools.
----
-
-### Conclusion
-The dataset reveals a young, tech-heavy workforce with moderate attrition and equitable gender-based salaries. Key challenges include retaining younger employees, addressing slow promotion cycles, and ensuring fair compensation for overtime. Strategic recommendations include accelerating promotions, diversifying hiring, and reviewing geographic concentration. The organization is well-positioned but can enhance retention and equity with targeted HR interventions.
-
-Some basic EDA observations:
-- Employees are spread across three departments: Sales, Human Resources, and Technology.
-- Age ranges vary, with a focus on employees aged 30-40.
-- Gender diversity is represented, including Male, Female, and Non-Binary.
-- Attrition is recorded along with performance indicators such as overtime, travel frequency, and promotions.
-
----
-
 ## 6. 📈 Data Analysis
 The following questions were addressed during the analysis:
 
-1. **What is the demographic profile of the workforce?**
+### What is the demographic profile of the workforce?
 
 The workforce is young (average age 28.99), with 65% under 30. Gender is balanced (46% female, 44% male), but non-binary (8%) and "prefer not to say" (1%) groups are smaller. White employees dominate (58%), and California is the primary location (60%).
 
-2. **How does salary vary across departments, roles, and demographics?**
+### How does salary vary across departments, roles, and demographics?
 
 Human Resources has the highest average salary ($119,698.81), followed by Sales ($119,155.94) and Technology ($109,655.12). Top-paying roles include HR Manager ($449,330.75) and Analytics Manager ($346,484.23). Females earn slightly more ($113,953.31) than males ($111,773.81). Higher education levels (Level 5: $155,379.64) correlate with higher salaries.
 
-3. **What are the attrition trends?**
+### What are the attrition trends?
 
 Attrition is 16.13%, with males (17.51%) slightly higher than females (15.43%). Younger employees (26.54 years) and those with shorter tenure (2.43 years) are more likely to leave. Distance from home has minimal impact (22.22 km vs. 22.55 km).
 
-
-4. **What are the hiring and tenure patterns?**
+### What are the hiring and tenure patterns?
 
 Hiring is evenly distributed across quarters, with peaks in March (153 hires) and May (140). Technology roles dominate (65%), with Computer Science (440) as the top education field. Average tenure is 4.56 years, with long-serving employees (9.02 years) earning more ($141,223.55).
 
-5. **How does overtime affect salaries and roles?**
+### How does overtime affect salaries and roles?
 
 28% of employees (416) work overtime, primarily in Sales Executive and Software Engineer roles. Overtime does not increase average salary ($112,963.92), suggesting salaried positions or fixed compensation.
 
+**Interesting Fact**:
+- **Unexpected Finding**: Sales Representatives have the lowest average salary ($40,656.42) but a high attrition rate (16.13% overall, with Sales having 445 employees), suggesting potential dissatisfaction due to compensation relative to workload.
 
-To derive insights, the data was analyzed across several dimensions:
-1. **Attrition Analysis**:
-   - Calculate attrition rates by department, job role, and gender.
-   - Compare average age and years at company for employees who stayed vs. left.
-2. **Salary Distribution**:
-   - Analyze salary distribution by job role and education level.
-   - Identify outliers (e.g., high salaries for HR Manager, Analytics Manager).
-3. **Department Performance**:
-   - Compare average years at company and salary across departments.
-   - Assess overtime prevalence by department.
-4. **Hiring Trends**:
-   - Visualize hires by quarter and month to identify seasonal patterns.
-5. **Demographic Insights**:
-   - Analyze gender and ethnicity distribution across job roles and departments.
-6. **Interesting Fact**:
-   - **Unexpected Finding**: Sales Representatives have the lowest average salary ($40,656.42) but a high attrition rate (16.13% overall, with Sales having 445 employees), suggesting potential dissatisfaction due to compensation relative to workload.
-
-Key analysis points based on pivot tables and dashboard visuals:
+**Key analysis points based on pivot tables and dashboard visuals:**
 - **Attrition Breakdown**: Affected more by employees with recent role changes and longer commute distances.
 - **Travel Impact**: Employees who travel frequently show higher attrition.
 - **Role Stability**: Long-serving employees with "Same Role" status have significantly lower attrition rates.
@@ -350,6 +304,7 @@ Key analysis points based on pivot tables and dashboard visuals:
 ---
 
 ## 7. 📊 Results/Findings
+### Key Observations
 - **Attrition**:
   - Technology has the highest employee count (961) but a lower attrition rate (16.13% overall).
   - Sales has a higher attrition rate, possibly linked to lower salaries for roles like Sales Representative.
@@ -366,40 +321,42 @@ Key analysis points based on pivot tables and dashboard visuals:
 - **Demographic Distribution**:
   - Females earn slightly higher salaries ($113,953.31) than males ($111,773.81).
   - White employees dominate (58.48%), followed by Black or African American (14.09%).
- 
 - **Attrition Rate** appears strongly linked with:
-  - Years with current manager (lower years → higher attrition).
-  - Years since last promotion (long gaps → dissatisfaction).
+  - Years with current manager (lower years ==> higher attrition).
+  - Years since last promotion (long gaps ==> dissatisfaction).
   - Overtime workers are more likely to leave.
 - **Travel Requirements** can be a key driver of burnout or turnover.
 - Employees in stable roles with longer tenure are more likely to stay.
-
+- **Overtime**:
+  - The lack of salary differentiation for overtime workers suggests potential inequities for hourly staff. 
+- **Promotion Cycles**:
+  - The 3.44-year average since the last promotion may be too long for younger employees, contributing to attrition. 
+---
+### Conclusion
+  - The dataset reveals a young, tech-heavy workforce with moderate attrition and equitable gender-based salaries.
+  - Key challenges include retaining younger employees, addressing slow promotion cycles, and ensuring fair compensation for overtime.
+  - Strategic recommendations include accelerating promotions, diversifying hiring, and reviewing geographic concentration.
+  - The organization is well-positioned but can enhance retention and equity with targeted HR interventions.
 ---
 
 ## 8. ✅ Recommendations
-1. **Reduce Attrition in Sales**:
+* **Reduce Attrition in Sales**:
    - Increase salaries for Sales Representatives or offer performance-based incentives to improve retention.
    - Implement mentorship programs for younger employees (<30) to enhance engagement.
-2. **Optimize Hiring**:
+   - Accelerate promotion reviews for high performers.
+* **Optimize Hiring**:
    - Focus hiring efforts in Q1 and Q2 to align with peak hiring months.
    - Target diverse candidates to balance ethnicity representation, especially in Technology.
-3. **Compensation Review**:
+* **Compensation Review**:
    - Review salary structures for Software Engineers and Data Scientists to ensure competitiveness in the tech industry.
    - Address salary disparities in high-paying roles (e.g., HR Manager) to ensure fairness.
-4. **Overtime Management**:
+* **Overtime Management**:
    - Investigate overtime prevalence in Sales and Technology to prevent burnout.
    - Offer flexible work arrangements for roles with high overtime (e.g., Sales Representative).
-5. **Dashboard Deployment**:
-   - Host the HR Management Dashboard on GitHub for easy access and updates.
+   - Review overtime policies to ensure fair compensation or workload distribution.
+* **Dashboard Deployment**:
+   - Deploy HR Management Dashboard and continue updating the dashboard monthly to monitor trends over time.
    - Ensure the dashboard is interactive, with filters for department, job role, and attrition status.
-
-
-- **Review Travel Policies**: Consider reducing travel frequency or offering incentives to frequent travelers.
-- **Managerial Development**: Support employee-manager relationship building, especially for new pairings.
-- **Targeted Retention**: Focus retention efforts on employees in "Different Role" status or without recent promotions.
-- **Optimize Workload**: Limit overtime or provide better compensation to reduce burnout.
-- **HR Reporting**: Continue updating the dashboard monthly to monitor trends over time.
-
 ---
 
 ## 9. ⚠️ Limitations
@@ -410,6 +367,6 @@ Key analysis points based on pivot tables and dashboard visuals:
 ---
 
 ## 10. 📚 References
-- Dataset: *Employee - Classwork WB.xlsx*
+- Dataset: *Employee - Practice WB.xlsx*
 - Visualization Tools: Microsoft Excel PivotTables & Charts
-- Dataset Source: Created for classwork purposes (assumed simulated data)
+- Dataset Source: Created for practice purposes (assumed simulated data)
