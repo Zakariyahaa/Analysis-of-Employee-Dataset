@@ -111,7 +111,7 @@ Key areas explored include:
   - New York (NY): 419 (28.52%)
   - Illinois (IL): 175 (11.92%)
 
-**Insight**: The workforce is relatively young, with a majority under 30 years old. Gender distribution is fairly balanced, though non-binary and "prefer not to say" categories are small. The majority of employees are White, and California is the dominant state of residence, likely indicating key operational hubs.
+The workforce is relatively young, with a majority under 30 years old. Gender distribution is fairly balanced, though non-binary and "prefer not to say" categories are small. The majority of employees are White, and California is the dominant state of residence, likely indicating key operational hubs.
 
 ---
 ### Department and Job Roles
@@ -136,7 +136,7 @@ Key areas explored include:
   - HR Business Partner: $314,002.43
   - Engineering Manager: $286,258.51
 
-**Insight**: The Technology department dominates in headcount, reflecting a tech-heavy organization. Sales Executives and Software Engineers are the most common roles. High-paying roles like HR Manager and Analytics Manager indicate specialized positions command premium salaries. Technology roles, despite being numerous, have lower average salaries compared to HR and Sales.
+The Technology department dominates in headcount, reflecting a tech-heavy organization. Sales Executives and Software Engineers are the most common roles. High-paying roles like HR Manager and Analytics Manager indicate specialized positions command premium salaries. Technology roles, despite being numerous, have lower average salaries compared to HR and Sales.
 
 ---
 ### Salary Analysis
@@ -161,7 +161,7 @@ Key areas explored include:
   - Employees working overtime (416): Average salary $112,963.92 (same as overall, suggesting no direct salary premium for overtime)
   - Non-overtime employees (1,053): Same average salary
 
-**Insight**: Salaries are relatively equitable across genders, with "Prefer Not To Say" employees earning the highest average. Higher education levels correlate strongly with higher salaries, with Level 5 earning significantly more. Overtime does not appear to directly increase average salary, possibly indicating hourly vs. salaried roles or fixed compensation structures.
+Salaries are relatively equitable across genders, with "Prefer Not To Say" employees earning the highest average. Higher education levels correlate strongly with higher salaries, with Level 5 earning significantly more. Overtime does not appear to directly increase average salary, possibly indicating hourly vs. salaried roles or fixed compensation structures.
 
 ---
 ### Attrition Analysis
@@ -187,7 +187,7 @@ Key areas explored include:
   - No Attrition: 22.55 km
   - Attrition: 22.22 km (minimal difference)
 
-**Insight**: Attrition is relatively low at 16.13%, with males showing slightly higher turnover than females. Younger employees and those with shorter tenure are more likely to leave. Distance from home does not significantly impact attrition. The "Prefer Not To Say" group has no attrition, possibly due to its small sample size.
+Attrition is relatively low at 16.13%, with males showing slightly higher turnover than females. Younger employees and those with shorter tenure are more likely to leave. Distance from home does not significantly impact attrition. The "Prefer Not To Say" group has no attrition, possibly due to its small sample size.
 
 ---
 ### Tenure and Promotions
@@ -205,7 +205,7 @@ Key areas explored include:
 - **Years in Most Recent Role**: 2.29 years (overall)
 - **Years with Current Manager**: 2.24 years (overall)
 
-**Insight**: Tenure is moderate, with Technology employees staying slightly longer. Long-serving employees earn significantly more, reflecting seniority-based compensation. The average time since the last promotion (3.44 years) suggests promotion cycles may be slow, potentially contributing to attrition among younger employees.
+Tenure is moderate, with Technology employees staying slightly longer. Long-serving employees earn significantly more, reflecting seniority-based compensation. The average time since the last promotion (3.44 years) suggests promotion cycles may be slow, potentially contributing to attrition among younger employees.
 
 ---
 ### Hiring Trends
@@ -227,7 +227,7 @@ Key areas explored include:
   - Information Systems: 363
   - Marketing: 166
 
-**Insight**: Hiring is fairly evenly distributed across quarters, with a slight peak in Q1. March and May are the most active hiring months, possibly aligning with fiscal or academic cycles. Tuesday is the most common hiring day, suggesting structured onboarding processes. Computer Science and Information Systems dominate educational backgrounds, aligning with the Technology department’s size.
+Hiring is fairly evenly distributed across quarters, with a slight peak in Q1. March and May are the most active hiring months, possibly aligning with fiscal or academic cycles. Tuesday is the most common hiring day, suggesting structured onboarding processes. Computer Science and Information Systems dominate educational backgrounds, aligning with the Technology department’s size.
 
 ---
 ### Overtime and Work Patterns
@@ -245,7 +245,7 @@ Key areas explored include:
   - Frequent Traveller: Present but less common
   - No Travel: Least common
 
-**Insight**: Overtime is common among key roles like Sales Executives and Software Engineers, but it doesn’t translate to higher average salaries, possibly due to salaried positions. Travel requirements vary, with "Some Travel" being the norm, potentially impacting work-life balance.
+Overtime is common among key roles like Sales Executives and Software Engineers, but it doesn’t translate to higher average salaries, possibly due to salaried positions. Travel requirements vary, with "Some Travel" being the norm, potentially impacting work-life balance.
 
 ---
 ### Role Status and Career Mobility
@@ -260,7 +260,7 @@ Key areas explored include:
   - Mid-Tenure: 1.95 years
   - Junior: 0.37 years
 
-**Insight**: A majority of employees have changed roles, indicating internal mobility or job rotation. Long-serving employees spend significantly more time in their roles, suggesting stability at senior levels. Junior employees change roles quickly, possibly due to early-career exploration or turnover.
+A majority of employees have changed roles, indicating internal mobility or job rotation. Long-serving employees spend significantly more time in their roles, suggesting stability at senior levels. Junior employees change roles quickly, possibly due to early-career exploration or turnover.
 
 ---
 
@@ -369,4 +369,3 @@ Hiring is evenly distributed across quarters, with peaks in March (153 hires) an
 ## 10. 📚 References
 - Dataset: *Employee - Practice WB.xlsx*
 - Visualization Tools: Microsoft Excel PivotTables & Charts
-- Dataset Source: Created for practice purposes (assumed simulated data)
